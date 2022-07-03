@@ -1,0 +1,32 @@
+# directory movements 
+alias ..='cd ..'
+alias ~='cd ~'
+alias ...='cd ../..'
+
+# git
+alias g='git'
+alias gf='git fetch'
+alias gp='git pull'
+alias gc='git commit'
+alias gcm='git commit -m'
+alias gpo='git push origin HEAD'
+alias gcb='git checkout --track'
+alias gs='git status'
+alias ga='git add'
+alias gmr='git merge'
+alias gr='git restore'
+alias grst='git restore --staged'
+alias gsw='git switch'
+alias gbr='git branch'
+
+# docker
+alias dcr='docker'
+alias dps='docker ps'
+alias dst='docker start'
+alias dstp='docker stop'
+
+# edit ~/.aliases
+alias ea='vim $HOME/dotfiles/.aliases'
+
+# reload ~/.zshrc 
+alias szc='source $HOME/.zshrc'
