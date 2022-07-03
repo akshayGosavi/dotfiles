@@ -1,0 +1,56 @@
+" line numbers
+set number 
+
+" don't move to visual mode when selecting with mouse
+set novisualmouse
+
+" whenever coming back to a tab start normal mode
+set startnormalmode
+
+" Tabs and Spaces 
+set tabstop=4 
+set expandtab 
+set shiftwidth=4 
+set shiftround 
+
+" search
+set incsearch
+set ignorecase
+set smartcase
+set hlsearch
+set showmatch
+
+" use system clipboard
+set clipboard=unnamed 
+
+" press space for :
+nnoremap <space> :
+
+" press Tab for % -> go to matching bracket
+nnoremap <Tab> %
+
+" center cursors vertically when moving from one match to next
+nnoremap n nzz
+nnoremap N Nzz
+
+" fast escape jk -> <esc>
+inoremap jk <esc>
+
+" copy from cursor to the end of line 
+nnoremap Y y$
+
+" just add new line and exit insert mode 
+nnoremap o o<esc>
+nnoremap O O<esc>
+
+" clear search with <leader> <space>
+noremap <leader><space> :let @/=''<cr>
+
+" in normal mode <leader>nl will break current line into two wrt cursor position
+nnoremap <leader>nl i<ctrl-j><esc> 
+
+" incomplete sneak plugin related 
+nmap ss <Plug>(sneak_s)
+nmap SS <Plug>(sneak_S)
+
+
