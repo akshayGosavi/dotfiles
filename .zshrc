@@ -2,8 +2,11 @@
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
-# load aliases, functions, exports if present
+# load aliases if present
 [ -r ~/.aliases ] && [ -f ~/.aliases ] && source ~/.aliases
+
+# load custom functions if present
+[ -r ~/.functions ] && [ -f ~/.functions ] && source ~/.functions
 
 # load syntax highlighting
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
