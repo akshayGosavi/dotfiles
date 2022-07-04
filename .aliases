@@ -25,6 +25,9 @@ alias dps='docker ps'
 alias dst='docker start'
 alias dstp='docker stop'
 
+# list $PATH entries on separate lines
+alias path='echo -e ${PATH//:/\\n}'
+
 # edit ~/.aliases
 alias ea='vim $HOME/dotfiles/.aliases'
 
