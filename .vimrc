@@ -1,7 +1,7 @@
-source ~/.vim/options.vim
-source ~/.vim/plugins.vim
-source ~/.vim/autocommands.vim
-source ~/.vim/mappings.vim
+source ~/dotfiles/vim/options.vim
+source ~/dotfiles/vim/plugins.vim
+source ~/dotfiles/vim/autocommands.vim
+source ~/dotfiles/vim/mappings.vim
 
 " Status Line {{{
 function! GitStatus()
