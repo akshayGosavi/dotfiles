@@ -3,6 +3,14 @@ alias ..='cd ..'
 alias ~='cd ~'
 alias ...='cd ../..'
 
+# from victoria.dev
+# create any non-existent (p)arent directories and (v) explain what was done 
+alias mkdir='mkdir -pv'
+# always expain (v) what was done when moving a file
+alias mv='mv -v'
+# always copy contents of directories (r)ecursively and (v) explain what was done
+alias cp='cp -rv' 
+
 # git
 alias g='git'
 alias gf='git fetch'
