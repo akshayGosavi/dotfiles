@@ -28,6 +28,8 @@ nnoremap <F2> :NERDTreeFocus<cr>
 nnoremap j gj
 nnoremap k gk
 
+nnoremap qp i<cr><esc>
+
 " just add new line and exit insert mode 
 nnoremap o o<esc>
 nnoremap O O<esc>

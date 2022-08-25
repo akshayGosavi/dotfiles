@@ -47,7 +47,7 @@ nnoremap O O<esc>
 noremap <leader><space> :let @/=''<cr>
 
 " in normal mode <leader>nl will break current line into two wrt cursor position
-nnoremap <leader>nl i<ctrl-j><esc> 
+nnoremap <leader>n i<enter><esc> 
 
 " incomplete sneak plugin related 
 nmap ss <Plug>(sneak_s)
