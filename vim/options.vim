@@ -1,34 +1,44 @@
 set nocompatible
 
-""" line numbers
+" line numbers
 set number 
 set relativenumber 
 set backspace=indent,eol,start " backspace through everything 
-set colorcolumn=120
+set colorcolumn=100
 
-""" filetype related
+" always show the sign column
+set signcolumn=yes
+
+" filetype related
 filetype on 
 filetype plugin on 
 filetype indent on 
 
-""" syntax highlighting
+" syntax highlighting
 syntax enable
 
-""" Tabs and Spaces 
+" Tabs and Spaces 
 set tabstop=4 
 set expandtab 
 set shiftwidth=4 
 set shiftround 
 
-""" search
+" search
 set incsearch
 set ignorecase
 set smartcase
-set hlsearch
-set showmatch
+set nohlsearch
+"set showmatch
 
 " show the mode you are in in the last line
 set showmode
+
+" show whitespace characters
+set listchars=tab:->,trail:~,space:.
+set list 
+
+" set folding indent
+set foldmethod=indent
 
 " commands history size
 set history=100
@@ -41,8 +51,8 @@ set clipboard=unnamed " use system clipboard
 set mouse=a
 
 " cursor highlight
-set cursorline 
-set cursorcolumn
+"set cursorline 
+"set cursorcolumn
 
 " auto completion with TAB
 set wildmenu
@@ -57,6 +67,8 @@ set modelines=0
 " instead of failing a command for unsaved changes confirm 
 set confirm
 
+" don't move to the bottom of the screen always scroll when 8 lines are left 
+set scrolloff=8
 " NERDTree Related {{{
 
 let NERDTreeIgnore=['\.mp4$', '\.mp3$', '\.png$', '\.jpg$', '\.jpeg$', '\.pdf$', '\.docx$','\.xlsx$', '\.pdf$', '\.dmg$', '\.zip$', '\.psd$']

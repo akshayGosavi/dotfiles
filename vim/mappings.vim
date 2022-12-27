@@ -40,4 +40,4 @@ noremap <leader><space> :let @/=''<cr>
 " easy way to open vimrc file 
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>i
 nnoremap <leader>sv :source $MYVIMRC<cr>
-" 
+
