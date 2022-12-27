@@ -1,6 +1,6 @@
-# jenv
-export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
+# jenv - uninstalling in favor of sdkman
+#export PATH="$HOME/.jenv/bin:$PATH"
+#eval "$(jenv init -)"
 
 # load aliases if present
 [ -r ~/.aliases ] && [ -f ~/.aliases ] && source ~/.aliases
