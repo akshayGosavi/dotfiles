@@ -18,6 +18,7 @@ filetype indent on
 syntax enable
 
 " Tabs and Spaces 
+set autoindent
 set tabstop=4 
 set expandtab 
 set shiftwidth=4 
@@ -58,8 +59,10 @@ set mouse=a
 set wildmenu
 set wildmode=list:longest,list:full
 
-" visual error response instead of beep
+" No visual error response instead of beep
 set novisualbell
+" No annoying beeping as well
+set belloff=all
 
 " security around modelines (found on internet)
 set modelines=0
