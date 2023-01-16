@@ -8,8 +8,8 @@ nnoremap <Tab> %
 nnoremap n nzz
 nnoremap N Nzz
 
-" fast escape jj -> <esc>
-inoremap jk <esc>
+" fast escape kj -> <esc>
+inoremap kj <esc>
 
 " copy from cursor to the end of line 
 nnoremap Y y$
