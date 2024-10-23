@@ -4,12 +4,16 @@ alias ~='cd ~'
 alias ...='cd ../..'
 
 # from victoria.dev
-# create any non-existent (p)arent directories and (v) explain what was done 
+# create any non-existent (p)arent directories and (v) explain what was done
 alias mkdir='mkdir -pv'
 # always expain (v) what was done when moving a file
 alias mv='mv -v'
 # always copy contents of directories (r)ecursively and (v) explain what was done
 alias cp='cp -rv' 
+
+# eza
+alias eza='eza --oneline --icons --color=always --all'
+alias ezat='eza --tree --group-directories-first --icons --color=always '
 
 # git
 alias g='git'
@@ -26,6 +30,7 @@ alias gr='git restore'
 alias grst='git restore --staged'
 alias gsw='git switch'
 alias gbr='git branch'
+alias gdf='git diff'
 
 # docker
 alias dcr='docker'

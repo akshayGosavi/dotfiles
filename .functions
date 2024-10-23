@@ -15,5 +15,6 @@ function mkd() {
 # Change directory and print contents of it
 # with (A) . and .. files, force (C)olumn output and show (F) type symbols for directories, symbolic links etc
 function cds() {
-    builtin cd "$1" && ls -ACF
+    # builtin cd "$1" && ls -ACF
+    builtin cd "$1" && eza
 }
